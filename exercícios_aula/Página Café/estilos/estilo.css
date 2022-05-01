@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(161, 128, 45);
+    border: white solid 3px;
+    /*border: 5px blanchedalmond solid;*/
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:10px;
+    background-color: rgb(155, 101, 30);
+
+    /*
+    O bloco de display a  align-itens ajuda na formatação dos elementos, por meio do flex-box
+
+    Outros elementos importantes:
+        * margin  (top, bottom, left, right)
+        * border
+
+        -> top: acima
+        -> bottom: abaixo
+        -> left: à esquerda
+        -> right: à direita
+    */
+}
+
+
+.el_cabecalho{
+    margin-left: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.elem_cabecalho{
+    color: white;
+    font-size: 18px;
+}
+
+
+.img_cabecalho{
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.principal{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../imagens/cafe1.jpeg);
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    height: 320px;
+    width: 1200px;
+    padding-top: 15%;
+
+    
+}
+
+.principal_texto{
+
+}
+
+
+
+.quem_somos{
+    margin-top:100px ;
+    margin-bottom: 100px;
+    margin-left:70px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quem_somos_texto{
+
+}
+
+.quem_somos_img{
+    margin-left: 70px;
+}
+
+
+footer{
+    text-align: center;
+    font-size: large;
+    background-color: blanchedalmond;
+}
