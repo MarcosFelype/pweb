@@ -75,17 +75,38 @@ body{
     align-items: center;
 }
 
-.quem_somos_texto{
-
-}
 
 .quem_somos_img{
     margin-left: 70px;
 }
 
+.menu{
+    margin-left: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu_img{
+    margin-right: 100px;
+}
+
+.menu_botao{
+    height: 100px;
+    width: 300px;
+    margin-right: 80px;
+    font-size: 2px;
+}
+
 
 footer{
-    text-align: center;
-    font-size: large;
+    height: 50px;
+    font-size: 16px;
     background-color: blanchedalmond;
+}
+
+.footer_texto{
+    padding-top: 20px;
+    text-align: center;
 }
