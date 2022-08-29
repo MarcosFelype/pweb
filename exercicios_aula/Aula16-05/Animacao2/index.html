@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="estilos/estilo.css" style="styesheet" type="text/css"> -->
+  <title>Animação 2</title>
+
+  <style>
+
+    body{
+      background-color: darkgray;
+    }
+
+    #div0{
+      height: 200px;
+      width: 250px;
+      background-color: white;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    #div1{
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: yellow;
+      animation-name: circle;
+      animation-duration: 4s;
+      /*animation-iteration-count: infinite;*/
+      border-radius: none;
+    }
+
+    #teste{
+      width: 250px;
+      height: 2500px;
+      
+    }
+
+    h1{
+      text-align: center;
+    }
+    
+    @keyframes circle {
+      /*0% {
+          background-color: yellow;
+        border-radius: none;
+         }
+      50% {
+        background-color: orange;
+        border-radius: 25%
+      }
+      100% {
+        background-color: red;
+        border-radius: 50%
+      }*/
+      0%{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        border-radius: none;
+        padding: 0px;
+      }
+
+      /*10%{
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: px;
+      }
+
+      25%{
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }*/
+      
+      50%{
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+        positin: relative;
+        
+        
+      }
+
+      100%{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        border-radius: none;
+      }
+    }
+
+
+    
+  </style>
+  
+</head>
+
+  
+<body>
+
+  <h1>
+    TESTE ANIMAÇÃO
+  </h1>
+
+  <div id="div0">
+    <div id="div1" > </div>
+   </div>
+
+ 
+
+  
+</body>
+
+  
+</html>

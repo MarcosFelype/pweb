@@ -1,0 +1,15 @@
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+p#ref1{
+  text-align: right;
+  font-size: 12px;
+}
+
+span.letra{
+  border: 1px solid orange;
+  border-radius: 50%;
+  color: orange;
+}

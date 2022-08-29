@@ -1,5 +1,5 @@
-input[type:submit]:hover{
-  background-color: #45a049 ;
+input[type=submit]:hover{
+  background-color: #326732;
 }
 
 div{

@@ -6,9 +6,127 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Aula16-05.2</title>
-  <link href="estilos/estilo.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="estilos/estilo.css" rel="stylesheet" type="text/css" />  -->
 
+  <style>
 
+    body{
+      background-color: darkgray;
+    }
+    
+    #div1{
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation-name: exemplo;
+      animation-duration: 4s;
+      border: black solid 2px;
+      position: sticky;
+      display: block;
+      margin: 0 auto 0 auto;
+      animation-iteration-count: 3;
+      
+    }
+
+    #div2{
+      background-color: purple;
+      width: 300px;
+      height: 250px;
+      margin-top: 50px;
+      border: black solid 4px;
+      border-radius: 10%;
+      animation-name: ex2;
+      animation-duration: 15s;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      animation-iteration-count: 3;
+    }
+
+    #div3pai{
+      width: 300px;
+      height: 500px;
+    }
+
+    #div3{
+      background-color: white;
+      width: 75px;
+      height: 75px;
+      border: solid black 1px;
+      border-radius: 50%;
+      position: relative;
+      animation-name: ex3;
+      animation-duration: 16s;
+      animation-iteration-count: 3;
+    }
+
+      @keyframes exemplo {
+        to{
+          background-color: yellow;
+        } 
+        25%{
+          margin-top: 10px;
+        }
+        50%{
+          margin-top: 25px;
+        }
+        75%{
+          margin-top: 35px;
+        }
+        100%{
+          margin-top: 50px;
+        } 
+      }
+
+      @keyframes ex2{
+        0% {
+          background-color: purple;
+        }
+        25% {
+          background-color: green;
+        }
+        50% {
+          background-color: blueviolet;
+        }
+        75% {
+          background-color: green;
+        }
+        100%{
+          background-color: purple;
+        }
+      }
+
+    @keyframes ex3{
+        0% {
+          background-color: white;
+          left: 0px;
+          top: 50px;
+        }
+        25% {
+          background-color: green;
+          left: 200px;
+          top: 50px;
+        }
+        50% {
+          background-color: blueviolet;
+          left: 200px;
+          top: 250px;
+        }
+        75% {
+          background-color: green;
+          left: 0px;
+          top: 250px;
+        }
+        100%{
+          background-color: white;
+          left: 0px;
+          top: 50px;
+        }
+      }
+
+    
+  </style>
+  
   
 </head>
 
@@ -16,10 +134,13 @@
 
   <h1> CSS Animation </h1>
 
-  <di
+  <div id="div1">  </div>
 
+  <div id="div2"> </div>
 
-</div>
+  <div id="div3pai"> 
+    <div id="div3" ></div>
+  </div>
   
 </body>
 
