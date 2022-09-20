@@ -1,0 +1,12 @@
+2- Converta o código abaixo para utilizar a sintaxe de arrow function:
+
+function counterFunc(counter) {
+
+   if (counter > 100) {
+
+      counter = 0; 
+   } else { 
+      counter++; 
+   } 
+   return counter;
+}

@@ -1,0 +1,12 @@
+Considere a função abaixo:
+var x = 10;
+
+function foo() {
+  var y = 20; // free variable
+  function bar() {
+    var z = 15; // free variable
+    return x + y + z;
+  }
+  return bar;
+}
+Utilizando seus conhecimentos em closure, qual a ordem de execução e resultado da chamada da função foo()?
