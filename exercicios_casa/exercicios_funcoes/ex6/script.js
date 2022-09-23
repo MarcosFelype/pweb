@@ -13,12 +13,26 @@ var x = 10;
 
 function foo(){
     var y=20;
-    function bar(){
+    return function bar(){
         var z = 15;
-        return x + y + z;
+        return {
+            z,
+            y
+        }; 
     }
-    return bar;
 }
 
 var soma = foo();
 console.log(soma());
+
+//pegar valor de z
+
+//console.log(soma().z);
+
+//ou
+
+var getZ = soma();
+console.log(getZ);
+console.log (`O valor de z é: ${getZ.z}`);
+
+
