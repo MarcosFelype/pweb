@@ -1,5 +1,12 @@
-let lista = [1,2,3,4,5];
 
-console.log(lista.map(multiplicar => multiplicar*5));
+function PullNumero(numero){
+  return function (tentativa){
+    
+  }
+}
 
-//aqui não apresenta o parênteses antes. Seria por conta 
+
+function (){
+  var resposta=;
+  var tentativas=0;
+}
