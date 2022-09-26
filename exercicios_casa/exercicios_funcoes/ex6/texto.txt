@@ -1,12 +1,1 @@
-Considere a função abaixo:
-var x = 10;
-
-function foo() {
-  var y = 20; // free variable
-  function bar() {
-    var z = 15; // free variable
-    return x + y + z;
-  }
-  return bar;
-}
-Utilizando seus conhecimentos em closure, qual a ordem de execução e resultado da chamada da função foo()?
+Escreva uma função, usando callback, que receba 3 argumentos: uma string, um número de repetições, e um callback que será repetido. A função, chamada repeat, deve passar a string para o callback como argumento e repetir este callback X vezes, com o resultado da repetição anterior como argumento. Insira o link da sua implementação no repl.it.

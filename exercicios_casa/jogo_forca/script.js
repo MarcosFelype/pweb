@@ -11,6 +11,7 @@ console.log(palavras);
 //SORTEIO
 
 const numero = Math.floor(Math.random() * palavras.length);
+console.log(numero)
 var sorteio = palavras[numero];
 console.log(palavras[numero]);
 
